@@ -20,6 +20,18 @@ function nowServing(Array)
   }
 }
 
+function currentLine(Array){
+  list = [];
+  if(Array.length === 0)
+  {
+    return "The line is currently empty!";
+  }
+  else{
+    
+  }
+  
+}
+
 console.log(takeAnumber(katzDeliLine,"Helen"));
 console.log(takeAnumber(katzDeliLine,"Pedro"));
 
