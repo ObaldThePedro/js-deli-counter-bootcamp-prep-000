@@ -39,8 +39,8 @@ function currentLine(Array){
 console.log(takeAnumber(katzDeliLine,"Helen"));
 console.log(takeAnumber(katzDeliLine,"Pedro"));
 
-console.log(nowServing(katzDeliLine));
-console.log(nowServing(katzDeliLine));
+//console.log(nowServing(katzDeliLine));
+//console.log(nowServing(katzDeliLine));
 
 console.log(currentLine(katzDeliLine));
 
