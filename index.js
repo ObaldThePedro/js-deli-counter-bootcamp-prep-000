@@ -6,7 +6,7 @@ function takeAnumber(Array,name)
   Array.push(name);
   index = Array.length;
   
-  return "Welcome, " + name + ". You are number " + index + "in line."
+  return "Welcome, " + name + ". You are number " + index + " in line."
 }
 
 console.log(takeAnumber(katzDeliLine,"Helen"));
