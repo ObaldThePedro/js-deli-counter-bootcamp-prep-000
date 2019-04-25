@@ -16,9 +16,11 @@ function nowServing(Array)
     return "There is nobody to be served!";
   }
   else{
-    
+    return "Currently serving " + Array.shift(0);
   }
 }
 
 console.log(takeAnumber(katzDeliLine,"Helen"));
 console.log(takeAnumber(katzDeliLine,"Pedro"));
+
+console.log(nowServing(katzDeliLine));
