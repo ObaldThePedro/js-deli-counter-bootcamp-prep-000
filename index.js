@@ -10,3 +10,4 @@ function takeAnumber(Array,name)
 }
 
 console.log(takeAnumber(katzDeliLine,"Helen"));
+console.log(takeAnumber(katzDeliLine,"Pedro"));
