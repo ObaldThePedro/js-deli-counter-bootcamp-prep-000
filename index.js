@@ -29,7 +29,7 @@ function currentLine(Array){
   else{
     for(var i=0;i<Array.length;i++)
     {
-      list.push((i+1) + '. ' + Array[i] + ' ');
+      list.push(' ' + (i+1) + '. ' + Array[i] + ' ');
     }
   }
   return "The line is currently: " + list;
