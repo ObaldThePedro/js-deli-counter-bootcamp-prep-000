@@ -8,3 +8,5 @@ function takeAnumber(Array,name)
   
   return "Welcome, " + name + ". You are number " + index + "in line."
 }
+
+console.log(takeAnumber(katzDeliLine,"Helen"));
